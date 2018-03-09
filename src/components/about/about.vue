@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>组件动态注入</h1>
-    <datepicker></datepicker>
+    <datepicker multi></datepicker>
     <b-button @click="add" variant="primary">添加组件</b-button>
     <div v-for="item in items">
       <!--//3、引用组件-->

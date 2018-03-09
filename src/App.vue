@@ -36,6 +36,7 @@
                 <em>User</em>
               </template>
               <b-dropdown-item to="/about">About</b-dropdown-item>
+              <b-dropdown-item to="/time">time</b-dropdown-item>
               <b-dropdown-item to="/charts">charts</b-dropdown-item>
               <b-dropdown-item href="#">Signout</b-dropdown-item>
             </b-nav-item-dropdown>
