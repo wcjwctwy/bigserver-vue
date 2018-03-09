@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
-import about from '@/components/about'
+import about from '@/components/about/about'
 import home from '@/components/home'
 import analyse from '@/components/analyse/analyse'
 import analyseRouter from './analyse/analyse'
+import aboutRouter from './demo/about'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
@@ -23,7 +24,8 @@ export default new Router({
     {
       path: '/about',
       name: 'about',
-      component: about
+      component: about,
+      // children:aboutRouter
     },
     {
       path: '/analyse',
